@@ -6,4 +6,9 @@ read n
 
 r=$(( $n % 2 ))
 
-if 
+if [ $r -eq o ]
+then
+   echo "even"
+else
+echo "not equal"
+fi
